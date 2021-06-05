@@ -1,0 +1,38 @@
+.form_container{
+    label{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5A7184;
+    }
+    input,
+    select{
+        background: #FFFFFF;
+        border: 1px solid #EFEFEF;
+        box-sizing: border-box;
+        border-radius: 4px;
+        font-size: 15px;
+        &:focus{
+            box-shadow: none;
+            outline: none;
+            border: 1px solid #EFEFEF;
+        }
+    }
+    select{
+        font-size: 15px;
+    }
+
+    .leftpad{
+        padding-left: 0;
+        @media screen and (max-width:764px){
+            padding:0;
+        }
+    }
+
+    .rightpad{
+        padding-right: 0;
+        @media screen and (max-width:764px){
+            padding:0;
+        }
+    }
+}

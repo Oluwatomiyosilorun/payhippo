@@ -1,0 +1,30 @@
+.number_carrier{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10%;
+    p{
+        width: 50px;
+        height: 50px;  
+        a{
+            background-color: #F0F2F5;
+            color: rgba(90, 113, 132, 0.6);
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            margin: auto;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 31px;
+            cursor: pointer;
+            &.active{
+                color: #0F24AA;
+                border: 1px solid #0F24AA;
+                background-color: white;
+            }
+        }
+        
+    }
+    
+}
