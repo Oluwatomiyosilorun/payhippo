@@ -12,7 +12,7 @@ const Business = () => {
 
             <form>
                 <div class="form-group col-lg-12 p-0">
-                    <label for="BizName">Business Name</label>
+                    <label for="BizName">Business label</label>
                     <input type="text" className="form-control" id="BizName" />
                 </div>
 
